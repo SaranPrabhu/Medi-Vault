@@ -1,0 +1,49 @@
+/* Pink gradient background for navbar */
+.navbar {
+  background: linear-gradient(90deg, #f8bbd0, #f4a6b7);
+  color: #fff;
+}
+
+/* Sidebar background */
+.sidebar {
+  background: linear-gradient(180deg, #f4a6b7, #f8bbd0);
+  color: #4a2b2b;
+}
+
+/* Cards (Appointments, Prescriptions) */
+.card {
+  background-color: #ffe6f0;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(244, 166, 183, 0.25);
+}
+
+/* Buttons */
+button,
+.MuiButton-root {
+  background-color: #f4a6b7 !important;
+  color: #fff !important;
+}
+
+button:hover,
+.MuiButton-root:hover {
+  background-color: #f28ca8 !important;
+}
+
+/* Background of dashboard */
+body,
+.dashboard-container {
+  background-color: #fff0f5;
+  color: #4a2b2b;
+}
+
+/* Active nav item */
+.sidebar .active {
+  background-color: #f28ca8 !important;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(244, 166, 183, 0.6);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #4a2b2b;
+}`
